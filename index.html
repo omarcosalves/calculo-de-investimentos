@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Cálculo de Investimento</h1>
+    <form id="formulario">
+        
+        <div class="value">
+            <label for="value">Valor Inicial</label>
+            <input type="number" id="value" class="input" required>
+        </div>
+        <div class="taxa">
+            <label for="taxa">Taxa de Juros</label>
+            <input type="number" id="taxa" class="input" required>
+        </div>
+        <div class="periodo">
+            <label for="periodo">Período</label>
+            <input type="number" id="periodo" class="input" required>
+        </div>
+        <div class="rendimento">
+            <label for="rendimento">Rendimento Final</label>
+            <input type="number" id="rendimento" class="input"disabled>
+        </div>
+        <div class="btnCalcular">
+            <button id="btnCalcular">Calcular</button>
+        </div>
+    </form>
+    <script src="js/script.js"></script>
+</body>
+</html>
